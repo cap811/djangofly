@@ -1,5 +1,5 @@
 {
-  "name": "create-django-app",
+  "name": "djangofly",
   "version": "1.0.0",
   "description": "Command line interface which help you create a 🐍 Django projects.",
   "main": "bin/index.js",
@@ -18,7 +18,7 @@
     "start": "node index.js"
   },
   "bin": {
-    "create-django-app": "./bin/index.js"
+    "djangofly": "./bin/index.js"
   },
   "dependencies": {
     "chalk": "^5.0.1",
