@@ -1,0 +1,30 @@
+{
+  "name": "create-django-app",
+  "version": "1.0.0",
+  "description": "Command line interface which help you create a 🐍 Django projects.",
+  "main": "bin/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cap811/create-django-app.git"
+  },
+  "author": "@cap811",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cap811/create-django-app/issues"
+  },
+  "homepage": "https://github.com/cap811/create-django-app#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "create-django-app": "./bin/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "loading-spinner": "^1.2.1",
+    "ora": "^6.1.0",
+    "readline": "^1.3.0",
+    "yargs": "^17.4.0"
+  }
+}

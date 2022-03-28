@@ -1,0 +1,3 @@
+# Git ignore files and directories.
+
+node_modules/
